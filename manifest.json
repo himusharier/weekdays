@@ -1,0 +1,10 @@
+{
+    "name": "Weekdays",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Displays a background image and a clock on the home page.",
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+}
+  

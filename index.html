@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Hello, Piyal!</title>
+  </head>
+  <body>
+    <div id="backgroundElement" class="background"></div>
+    <div class="weather">...°C</div>
+    <div class="settings-area">
+      <img class="settings-icon" src="settings.png">
+    </div>
+    <p class="image-caption">Somewhere, Earth.</p>
+    <div class="settings-options" style="display:none;">
+      <div>
+        <button id="change-background"><span class="loading-icon"></span>Change Background</button>
+      </div>
+      <div class="options">
+          <input type="checkbox" id="time-format"> 12-hour?
+      </div>
+    </div>
+
+    <div class="add-links-area" >
+      <img class="add-icon" src="add.png">
+    </div>
+    <div class="add-links-options" style="display:none;">
+      <div>
+        <span>Add shortcut</span>
+      </div>
+    </div>
+    <div>
+      <div class="clock"></div>
+      <div class="message">Hello Piyal!</div>
+    </div>
+    <div class="links-area">
+      <div class="link-container" data-url="https://confluence.rakuten-it.com/confluence/display/ECSG/ItemPage%28RESTFull%29+BFF+Specifications" >
+        Confluence
+      </div>
+      <div class="link-container" data-url="https://jira.rakuten-it.com/jira/browse/ECSG-">
+        Jira
+      </div>
+      <div class="link-container" data-url="https://gitpub.rakuten-it.com/dashboard">
+        Gitpub
+      </div>
+      <div class="link-container" data-url="https://erp.bjitgroup.com/">
+        BJIT ERP
+      </div>
+      <div class="link-container" data-url="https://bd1.bjitgroup.com/">
+        BJIT mail
+      </div>
+      <div class="link-container" data-url="https://rakuten.zoom.us/j/99406977258?pwd=VGlHMjBsZ2hHV3Bma05IUy9QR2RmQT09">
+        Daily Huddle
+      </div>
+    </div>
+    <script src="clock.js"></script>
+    <script src="changeImage.js"></script>
+    <script src="weather.js"></script>
+    <script src="links.js"></script>
+  </body>
+</html>
+
+

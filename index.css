@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  color: white;
+  user-select: none;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;/* add a dark tint and blur effect to the background */
+}
+.clock {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6em;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: none;
+  letter-spacing: 0.2em;
+  white-space: nowrap;
+}
+.message{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: none;
+  font-size: 2em;
+  letter-spacing: 0.15em;
+  white-space: nowrap;
+}
+.options {
+  color: white;
+  background-color: black;
+  padding: 6px;
+  font-size: 13.33px;
+  border: none;
+}
+.loading-icon {
+  display: none;
+}
+#change-bg-btn.loading .loading-icon {
+  display: inline-block;
+}
+#change-background{
+  color: white;
+  background-color: black;
+  padding: 6px;
+  margin: 3px 3px 3px 4px;
+  border: none;
+  cursor: pointer;
+}
+.settings-icon{
+  height: 25px;
+  width: auto;
+  opacity: 0.6;
+  cursor: pointer;
+  display: inline-block;
+}
+.search-icon{
+  height: 25px;
+  width: auto;
+  opacity: 0.6;
+  cursor: pointer;
+  display: inline-block;
+}
+.settings-options{
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  width: 200px;
+}
+.settings-area{
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+.search-area{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+.image-caption{
+  position: absolute;
+  bottom: 5px;
+  left: 55px;
+  opacity: 0.7;
+}
+.weather{
+  float: right;
+  background-color: black;
+  padding: 6px;
+  margin: 9px;
+  border-radius: 10px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.add-links-area{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+.add-icon{
+  height: 35px;
+  width: auto;
+  opacity: 0.6;
+  cursor: pointer;
+  display: inline-block;
+}
+.add-links-options{
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+  width: 200px;
+}
+.links-area{
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  text-shadow: none;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.link-container {
+  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  width: 80px; 
+  margin: auto;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 5px;
+  font-size: smaller;
+}
