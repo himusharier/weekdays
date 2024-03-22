@@ -39,7 +39,7 @@ function updateClock() {
   clock.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')} ${meridian}`;
 
   // Update the message
-  message.textContent = `Hello Piyal, ${messageText}!`;
+  message.textContent = `Hello Razon, ${messageText}!`;
 
   // Request the next animation frame
   requestAnimationFrame(updateClock);
